@@ -1,0 +1,21 @@
+#mkdir a new directory
+mkdir cc103_Mission
+
+#build a docker-compose.yml
+
+#initial git
+git init
+
+#git add new file
+git add docker-compose.yml
+
+#add a tag with your file
+git commit -m "Description"
+
+#add new remote server
+git remote add origin https://github.com/CingHongli/CC103_Mission.git
+
+#push your file to remote server
+git push -u orgin master
+
+
