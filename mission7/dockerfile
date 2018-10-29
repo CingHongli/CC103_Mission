@@ -1,0 +1,11 @@
+#jupyter notebook
+#centos
+From jupyter/base-notebook
+MAINTAINER Jeff
+CMD start-notebook.sh --NotebookApp.token=''
+
+ #安裝套件PyMySQL、flask v0.12
+RUN python3 -m pip install PyMySQL
+RUN python3 -m pip install flask==0.12
+
+EXPOSE 8888
